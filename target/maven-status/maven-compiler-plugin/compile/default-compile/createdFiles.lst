@@ -1,0 +1,14 @@
+com\antonio\apirestfulservice\model\User.class
+com\antonio\apirestfulservice\exceptions\RecordNotFoundException.class
+com\antonio\apirestfulservice\repositories\RoutineRepository.class
+com\antonio\apirestfulservice\model\Routine.class
+com\antonio\apirestfulservice\services\PersonalRoutineService.class
+com\antonio\apirestfulservice\services\RoutineService.class
+com\antonio\apirestfulservice\repositories\PersonalRoutineRepository.class
+com\antonio\apirestfulservice\services\UserService.class
+com\antonio\apirestfulservice\controllers\UserServiceController.class
+com\antonio\apirestfulservice\AppMain.class
+com\antonio\apirestfulservice\controllers\PersonalRoutineServiceController.class
+com\antonio\apirestfulservice\controllers\RoutineServiceController.class
+com\antonio\apirestfulservice\repositories\UserRepository.class
+com\antonio\apirestfulservice\model\PersonalRoutine.class

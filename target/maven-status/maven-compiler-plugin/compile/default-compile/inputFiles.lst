@@ -1,0 +1,14 @@
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\AppMain.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\exceptions\RecordNotFoundException.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\controllers\RoutineServiceController.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\services\PersonalRoutineService.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\controllers\UserServiceController.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\model\PersonalRoutine.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\repositories\PersonalRoutineRepository.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\repositories\RoutineRepository.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\repositories\UserRepository.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\model\Routine.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\model\User.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\controllers\PersonalRoutineServiceController.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\services\RoutineService.java
+C:\Users\anton\OneDrive\Documentos\NetBeansProjects\apiRestfulService\src\main\java\com\antonio\apirestfulservice\services\UserService.java

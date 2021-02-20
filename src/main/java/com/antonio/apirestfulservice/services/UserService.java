@@ -23,8 +23,15 @@ public class UserService {
         }else{
             return new ArrayList<User>();
         }
-        
-        
+    }
+    
+    public List<User> getFighterzTierlist() {
+        List<User> userList = repository.getFighterzTierlist();
+        if(userList.size() > 0){
+            return userList;
+        }else{
+            return new ArrayList<User>();
+        }   
     }
     
     public User getUserById(Long id) throws RecordNotFoundException
@@ -59,6 +66,7 @@ public class UserService {
                 newUser.setPassword(entity.getPassword());
                 newUser.setZpower(entity.getZpower());
                 newUser.setPersonalRoutines(entity.getPersonalRoutines());
+                newUser.setImage(entity.getImage());
                 
                 newUser = repository.save(newUser);
                 
@@ -92,17 +100,21 @@ public class UserService {
                 
     }
     
-    public User existUser(String login, String password)
+    public User existUser(String login, String password)       
     {
-
-        Optional<User> user = repository.existUser(login, password);
-
-        if(user != null){
-            return user.get();
-        }else{
-            throw new RecordNotFoundException("No user exists for given credentials", -1l);
+         User usuarioDF = new User();
+         usuarioDF.setId(-1l);
+        try{
+            Optional<User> user = repository.existUser(login, password);
+            if(user!=null){
+                return user.get();
+            }
+        }catch(Exception e){
+            throw new RecordNotFoundException("No User record exist for the given ID", -1l);
         }
-        
+        return usuarioDF;
     }
+
+    
   
 }

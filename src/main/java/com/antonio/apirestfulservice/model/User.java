@@ -35,6 +35,8 @@ public class User {
     @Column(name="zpower")
     private int zpower;
 
+    @Column(name="image")
+    private String image;
     
     public Long getId() {
         return id;
@@ -59,7 +61,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
     
     public List<PersonalRoutine> getPersonalRoutines() {
         return personalRoutines;
@@ -80,12 +81,18 @@ public class User {
         this.zpower = zpower;
     }
 
-    @Override
-    public String toString() {
-        return "User{" + "id=" + id + ", loginName=" + loginName + ", password=" + password + ", personalRoutines=" + personalRoutines + ", zpower=" + zpower + '}';
+    public String getImage() {
+        return image;
     }
 
+    public void setImage(String image) {
+        this.image = image;
+    }
 
+    @Override
+    public String toString() {
+        return "User{" + "id=" + id + ", loginName=" + loginName + ", password=" + password + ", personalRoutines=" + personalRoutines + ", zpower=" + zpower + ", image=" + image + '}';
+    }
     
     
 }

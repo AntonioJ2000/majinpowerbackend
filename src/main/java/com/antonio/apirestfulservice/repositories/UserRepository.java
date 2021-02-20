@@ -20,4 +20,9 @@ public interface UserRepository extends JpaRepository<User, Long>{
             nativeQuery = true)
     public Optional<User> existUser(String login, String password);
     
+    @Query(
+    value="SELECT * FROM users ORDER BY zpower desc LIMIT 15",
+            nativeQuery = true)
+    public List<User> getFighterzTierlist();
+    
 }

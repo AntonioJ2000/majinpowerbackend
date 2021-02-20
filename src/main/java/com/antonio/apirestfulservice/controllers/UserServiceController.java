@@ -33,6 +33,13 @@ public class UserServiceController {
         return new ResponseEntity<List<User>>(list, new HttpHeaders(), HttpStatus.OK);
     }
     
+    @GetMapping("/topfighterz")
+    public ResponseEntity<List<User>> getAllFighterzList(){
+        List<User> list = service.getFighterzTierlist();
+        
+        return new ResponseEntity<List<User>>(list, new HttpHeaders(), HttpStatus.OK);
+    } 
+    
     @GetMapping("/{id}")
     public ResponseEntity<User> getItemById(@PathVariable("id") Long id)
                                                     throws RecordNotFoundException {

@@ -16,10 +16,12 @@ import com.antonio.apirestfulservice.exceptions.RecordNotFoundException;
 import com.antonio.apirestfulservice.services.UserService;
 import java.util.List;
 import javax.validation.Valid;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/user")
 public class UserServiceController {
     
